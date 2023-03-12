@@ -1,6 +1,15 @@
 #!/usr/bin/python3
+"""Defines unittests for console.py.
 
-
+Unittest classes:
+    TestHBNBCommand_prompting
+    TestHBNBCommand_help
+    TestHBNBCommand_exit
+    TestHBNBCommand_show
+    TestHBNBCommand_all
+    TestHBNBCommand_destroy
+    TestHBNBCommand_update
+"""   
 from os import system
 from models.engine.file_storage import FileStorage
 import unittest
